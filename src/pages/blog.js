@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import { tsImageUrl } from 'lib/takeshape';
 import { friendlyDate } from 'lib/datetime';
