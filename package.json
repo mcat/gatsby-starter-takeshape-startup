@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-starter-takeshape-startup",
+  "description": "A Gatsby starter to integrate TakeShape",
+  "version": "0.1.0",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "dependencies": {
+    "gatsby": "^2.19.43",
+    "gatsby-plugin-manifest": "^2.3.5",
+    "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-resolve-src": "^2.0.0",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sass": "^2.1.30",
+    "gatsby-plugin-sitemap": "^2.3.4",
+    "gatsby-source-filesystem": "^2.1.55",
+    "gatsby-source-graphql": "^2.4.2",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "slugify": "^1.4.0",
+    "takeshape-routing": "^5.0.4"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gatsby",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "lint": "Get started linting your code with Eslint and stylelint",
+    "format": "Get started formatting your code with Eslint, Prettier, and stylelint",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "test": "echo 'Write tests! -> https://gatsby.dev/unit-testing'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colbyfayock/gatsby-starter-takeshape-startup"
+  },
+  "bugs": {
+    "url": "https://github.com/colbyfayock/gatsby-starter-takeshape-startup/issues"
+  }
+}
