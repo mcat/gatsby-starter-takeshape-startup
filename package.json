@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-takeshape-startup",
-  "description": "A Gatsby starter to integrate TakeShape",
+  "description": "A Gatsby starter to integrate TakeShape CMS",
   "version": "0.1.0",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
@@ -24,8 +24,8 @@
   "devDependencies": {},
   "keywords": [
     "gatsby",
-    "sass",
-    "scss"
+    "takeshape",
+    "cms"
   ],
   "license": "MIT",
   "scripts": {
