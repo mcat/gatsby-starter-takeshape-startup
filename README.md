@@ -2,6 +2,8 @@
 
 Integrate TakeShape CMS using a ready to go TakeShape project!
 
+This starter is based on the Startup example that you can choose when creating a new project in the TakeShape CMS.
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
