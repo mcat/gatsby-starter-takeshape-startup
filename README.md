@@ -11,14 +11,22 @@ Integrate TakeShape CMS using a ready to go TakeShape project!
     ```shell
     # create a new Gatsby site using the default starter
     gatsby new my-startup-project https://github.com/colbyfayock/gatsby-starter-takeshape-startup
+    cd my-startup-project/
     ```
+
+1.  **Create an environment file.**
+
+    Inside `my-startup-project`, create a new file called `.env`. In this file, you want to include 2 enviornment files that you will use to add your TakeShape project ID and access key.
+    ```shell
+    # Inside .env
+    TAKESHAPE_PROJECT="[TakeShape Project ID]"
+    TAKESHAPE_API_KEY="[TakeShape API Access Key]"
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Start it up.
 
     ```shell
-    cd my-startup-project/
     gatsby develop
     ```
 
