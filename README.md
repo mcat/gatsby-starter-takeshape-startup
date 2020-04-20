@@ -36,7 +36,7 @@ This starter is based on the Startup example that you can choose when creating a
     TAKESHAPE_API_KEY="[TakeShape API Access Key]"
     ```
 
-    [Learn how to create an API key](https://www.takeshape.io/docs/creating-an-api-key/)
+    [Learn how to create an API key](https://www.takeshape.io/docs/creating-an-api-key/).
 
 1.  **Start developing.**
 
