@@ -10,7 +10,7 @@ This starter is based on the Startup example that you can choose when creating a
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use the [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/) to create a new site, specifying the default starter.
 
     ```shell
     # create a new Gatsby site using the default starter
@@ -18,13 +18,25 @@ This starter is based on the Startup example that you can choose when creating a
     cd my-startup-project/
     ```
 
+    Note: you must have the Gatsby CLI installed. [Learn how to install the Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/#how-to-use-gatsby-cli).
+
+1.  **Create a new TakeShape project.**
+
+    [Sign up for a free TakeShape account](https://app.takeshape.io/signup) and [create a project](https://app.takeshape.io/projects) using the "Shape Startup" template.
+
+    [https://app.takeshape.io/signup](https://app.takeshape.io/signup)
+
 1.  **Create an environment file.**
 
     Inside `my-startup-project`, create a new file called `.env`. In this file, you want to include 2 enviornment files that you will use to add your TakeShape project ID and access key.
+
     ```shell
     # Inside .env
     TAKESHAPE_PROJECT="[TakeShape Project ID]"
     TAKESHAPE_API_KEY="[TakeShape API Access Key]"
+    ```
+
+    [Learn how to create an API key](https://www.takeshape.io/docs/creating-an-api-key/)
 
 1.  **Start developing.**
 
@@ -84,6 +96,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/colbyfayock/gatsby-starter-takeshape-startup)
 
-After deploying to your preferred tool - you will need to add 2 environment files:
+After deploying to your preferred tool - you will need to set your 2 environment variables:
 * `TAKESHAPE_PROJECT`: This is your TakeShape project ID
 * `TAKESHAPE_API_KEY`: This is your API key associated with your account
