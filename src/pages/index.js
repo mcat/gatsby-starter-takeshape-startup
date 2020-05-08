@@ -16,6 +16,7 @@ const IndexPage = ({ data = {} }) => {
   const heroStyles = {
     backgroundImage: `url('${ tsImageUrl(page.hero.image) }')`
   }
+  const heroLinkIsExternal = page.hero.button.url.charAt(0) === '/';
 
   return (
     <Layout pageName="home">
@@ -28,7 +29,12 @@ const IndexPage = ({ data = {} }) => {
           <div className="hero__content">
             <h1>{ page.hero.heading }</h1>
             <p>{ page.hero.text }</p>
-            <Link to={ page.hero.button.url } className="button">{ page.hero.button.text }</Link>
+            {heroLinkIsExternal && (
+              <Link to={ page.hero.button.url } className="button">{ page.hero.button.text }</Link>
+            )}
+            {!heroLinkIsExternal && (
+              <a href={ page.hero.button.url } className="button">{ page.hero.button.text }</a>
+            )}
           </div>
         </div>
       </div>
