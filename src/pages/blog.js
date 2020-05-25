@@ -8,7 +8,7 @@ import routes from 'lib/routes';
 
 import Layout from 'components/Layout';
 
-const AboutPage = ({ data = {} }) => {
+const BlogPage = ({ data = {} }) => {
   const page = data?.takeshape?.getPostList || {};
 
   return (
@@ -50,7 +50,7 @@ const AboutPage = ({ data = {} }) => {
   );
 ;}
 
-export default AboutPage
+export default BlogPage
 
 export const pageQuery = graphql`
   query {
