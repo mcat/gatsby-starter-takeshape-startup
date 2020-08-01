@@ -99,3 +99,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 After deploying to your preferred tool - you will need to set your 2 environment variables:
 * `TAKESHAPE_PROJECT`: This is your TakeShape project ID
 * `TAKESHAPE_API_KEY`: This is your API key associated with your account
+
+## 📚 More Resources to Get Started
+* [Quickly Create a New Company Website Managed by a CMS with TakeShape and Gatsby](https://egghead.io/playlists/quickly-create-a-new-company-website-managed-by-a-cms-with-takeshape-and-gatsby-4e4d?af=atzgap) (egghead.io)
